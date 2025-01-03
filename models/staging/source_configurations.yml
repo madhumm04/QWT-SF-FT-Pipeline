@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: QWT_RAW
+    database: QWT_ANALYTICS
+    schema: RAW
+    tables:
+      - name: customer
+      - name: products
+      - name: orders
+      - name: orderdetails
+      - name: categories
+      - name: suppliers
+      - name: shipments
