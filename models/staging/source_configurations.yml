@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: QWT_RAW
-    database:"{{env_var('DBT_SOURCEDB', 'QWT_ANALYTICS')}}"
-    schema:"{{env_var('DBT_SOURCESCHEMA', 'RAW')}}"
+    database: "{{env_var('DBT_SOURCEDB', 'QWT_ANALYTICS')}}"
+    schema: "{{env_var('DBT_SOURCESCHEMA', 'RAW')}}"
     tables:
       - name: customer
       - name: products
