@@ -4,11 +4,11 @@ seeds:
   - name: lkp_divisions
     config:
       schema: Lookup
-
-  - name: lkp_catergories
+   
+  - name: lkp_shippers
     config:
       schema: Lookup
-      
-  - name: lkp_shippers
+
+  - name: lkp_categories
     config:
       schema: Lookup
